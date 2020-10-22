@@ -1,0 +1,152 @@
+{
+  "main": {
+    "name":"Peter Gomez",
+    "address":{
+        "city":"Tallahassee",
+        "state":"Florida"
+    },
+    "occupation":"Computer Science Student and Tutor",
+    "description":"Problem solver for fun and profit",
+    "image":"profilepic.jpg",
+    "bio":"I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independantly studying full-stack development, programming languages, and passing this knowledge onto others. I tutor with my university and privately, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
+    "contactmessage":"Find my contact info below. Email is the most reliable way to reach me but I check all social media regularly.",
+    "email": "plg18b@my.fsu.edu",
+    "phone": "786-662-9918",
+    "website": "http://www.petergomez.xyz",
+    "resumedownload":"http://petergomez.xyz",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/fadedlamp42",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/peter-gomez-733019175/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/fadedlamp42",
+        "className":"fa fa-facebook"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I've aquired hands-on experience with server administration, database management, data science, and operating systems.",
+    "education":[
+      {
+        "school":"Florida State University",
+        "degree":"Master of Science in Computer Science",
+        "graduated":"December 2022",
+        "description":"I plan to deepen and solidify my understanding of computer science as a field of research while developing my practical skills."
+      },
+      {
+        "school":"Florida State University",
+        "degree":"Bachelor of Science in Computer Science, Minor in Mathematics",
+        "graduated":"December 2021",
+        "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages and basic system administration."
+      }
+    ],
+    "work":[
+      {
+        "company":"Florida State University",
+        "title":"Computer Science and Math Tutor",
+        "years":"October 2019 - Present",
+        "description":"Appointment-based and group tutoring providing guidance and mentorship to other students. Topics include data structures, object-oriented programming, introductions to C++/Java/UNIX, discrete mathematics and college algebra."
+      }
+    ],
+    "skills":[
+      {
+        "name":"C++",
+        "level":"90%"
+      },
+      {
+        "name":"UNIX Administration",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"C",
+        "level":"70%"
+      },
+      {
+        "name":"HTML/CSS/JS",
+        "level":"70%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"MySQL",
+        "level":"60%"
+      },
+      {
+        "name":"Containers (Docker/Kubernetes)",
+        "level":"50%"
+      },
+      {
+        "name":"Golang",
+        "level":"20%"
+      },
+      {
+        "name":"Haskell",
+        "level":"10%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"duedate",
+        "category":"CLI tool for tracking tasks and due dates",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.github.com/fadedlamp42/duedate"
+      },
+      {
+        "title":"mbd-processing",
+        "category":"An exercise in batch processing and visualizing a large data set",
+        "image":"fury-fighting-gear.jpg",
+        "url":"https://www.github.com/fadedlamp42/mbd-processing"
+      },
+      {
+        "title":"dwm",
+        "category":"My highly-customized build of a window manager written in C",
+        "image":"original-thai-food.jpg",
+        "url":"https://www.github.com/fadedlamp42/dwm"
+      },
+      {
+        "title":"Animal Crossing Item Lister",
+        "category":"Web scraping script to generate a formatted table from a live website",
+        "image":"smirkspace.jpg",
+        "url":"https://www.github.com/fadedlamp42/acnh-item-lister"
+      },
+      {
+        "title":"nvim",
+        "category":"Bundle of my text editor configuration files with documentation",
+        "image":"resume-website.jpg",
+        "url":"https://www.github.com/fadedlamp42/nvim"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"something nice",
+        "user":"someone"
+      },
+      {
+        "text":"very good complement",
+        "user":"a different person"
+      }
+    ]
+  }
+}
