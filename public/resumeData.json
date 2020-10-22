@@ -37,15 +37,15 @@
     "education":[
       {
         "school":"Florida State University",
-        "degree":"Master of Science in Computer Science",
-        "graduated":"December 2022",
+        "degree":"M.S. in Computer Science",
+        "graduated":"expected December 2022",
         "description":"I plan to deepen and solidify my understanding of computer science as a field of research while developing my practical skills."
       },
       {
         "school":"Florida State University",
-        "degree":"Bachelor of Science in Computer Science, Minor in Mathematics",
-        "graduated":"December 2021",
-        "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages and basic system administration."
+        "degree":"B.S. in Computer Science, Minor in Mathematics",
+        "graduated":"expected December 2021",
+        "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages, and basic system administration."
       }
     ],
     "work":[
@@ -108,32 +108,26 @@
       {
         "title":"duedate",
         "category":"CLI tool for tracking tasks and due dates",
-        "image":"canadian-wanderlust.jpg",
+        "image":"due.png",
         "url":"https://www.github.com/fadedlamp42/duedate"
       },
       {
-        "title":"mbd-processing",
+        "title":"MindBigData Exploration",
         "category":"An exercise in batch processing and visualizing a large data set",
-        "image":"fury-fighting-gear.jpg",
+        "image":"mbd.png",
         "url":"https://www.github.com/fadedlamp42/mbd-processing"
       },
       {
         "title":"dwm",
         "category":"My highly-customized build of a window manager written in C",
-        "image":"original-thai-food.jpg",
+        "image":"dwm.png",
         "url":"https://www.github.com/fadedlamp42/dwm"
       },
       {
         "title":"Animal Crossing Item Lister",
         "category":"Web scraping script to generate a formatted table from a live website",
-        "image":"smirkspace.jpg",
+        "image":"acil.png",
         "url":"https://www.github.com/fadedlamp42/acnh-item-lister"
-      },
-      {
-        "title":"nvim",
-        "category":"Bundle of my text editor configuration files with documentation",
-        "image":"resume-website.jpg",
-        "url":"https://www.github.com/fadedlamp42/nvim"
       }
     ]
   },
