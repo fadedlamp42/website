@@ -40,6 +40,8 @@ class Header extends Component {
             <ul className="social">
                {networks}
             </ul>
+            <hr />
+             <h4><a href="https://github.com/fadedlamp42/website" target="_blank" rel="noopener noreferrer">View this website on github</a></h4>
          </div>
       </div>
 
