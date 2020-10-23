@@ -13,7 +13,7 @@
     "email": "plg18b@my.fsu.edu",
     "phone": "786-662-9918",
     "website": "http://www.petergomez.xyz",
-    "resumedownload":"http://petergomez.xyz",
+    "resumedownload":"Gomez_Pedro.pdf",
     "social":[
       {
         "name":"github",
@@ -39,12 +39,14 @@
         "school":"Florida State University",
         "degree":"M.S. in Computer Science",
         "graduated":"expected December 2022",
+        "gpa":"GPA: TBD",
         "description":"I plan to deepen and solidify my understanding of computer science as a field of research while developing my practical skills."
       },
       {
         "school":"Florida State University",
         "degree":"B.S. in Computer Science, Minor in Mathematics",
         "graduated":"expected December 2021",
+        "gpa":"GPA: 3.83",
         "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages, and basic system administration."
       }
     ],
@@ -134,12 +136,10 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"something nice",
-        "user":"someone"
-      },
-      {
-        "text":"very good complement",
-        "user":"a different person"
+        "text":"Peter worked for us as a peer tutor in computer science for the past two years, and is one of our finest employees. He is knowledgeable in his trade, adaptable to change and adversity, and always proactive in contributing to the team. I can rely on him 100% to make suggestions for the improvement of our program, help students in need one-on-one or in a group, and to get the job done whatever it may be.",
+        "user":"Dr. Shane H. Hockin",
+        "title":"Program Coordinator at FSU",
+        "email":"shockin@fsu.edu"
       }
     ]
   }
