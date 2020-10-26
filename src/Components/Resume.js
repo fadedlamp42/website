@@ -9,7 +9,7 @@ class Resume extends Component {
         return <div key={education.school}><h3>{education.school}</h3>
             <p className="info">
             {education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-            <p><i><em>{education.gpa}</em></i><br/>
+            <p><b>{education.gpa}</b><br/>
            {education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
