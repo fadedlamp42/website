@@ -5,10 +5,13 @@
         "city":"Tallahassee",
         "state":"Florida"
     },
-    "occupation":"Computer Science Student and Tutor",
+    "occupation":"Software Engineer, Computer Science Student, and Tutor",
     "description":"Problem solver for fun and profit",
     "image":"profilepic.jpg",
-    "bio":"I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independently studying full-stack development, programming languages, and passing this knowledge onto others. I tutor with my university and privately, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
+    "bio": [
+      "I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independently studying full-stack development, programming languages, and passing this knowledge onto others. Currently, I'm working as a back-end engineer with Chartmetric, a high-profile music analytics company. I also provide private tutoring sessions, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
+      "When I'm not programming, you can find me playing with my cats, gaming with my wife, or playing guitar."
+    ],
     "contactmessage":"Find my contact info below. Email is the most reliable way to reach me but I check all social media regularly.",
     "email": "plg18b@my.fsu.edu",
     "phone": "786-662-9918",
@@ -38,29 +41,41 @@
       {
         "school":"Florida State University",
         "degree":"M.S. in Computer Science",
-        "graduated":"expected December 2022",
+        "graduated":"expected May 2023",
         "gpa":"GPA: TBD",
         "description":"I plan to deepen and solidify my understanding of computer science as a field of research while developing my practical skills."
       },
       {
         "school":"Florida State University",
         "degree":"B.S. in Computer Science, Minor in Mathematics",
-        "graduated":"expected December 2021",
+        "graduated":"expected May 2022",
         "gpa":"GPA: 3.83",
         "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages, and basic system administration."
       }
     ],
     "work":[
       {
+        "company":"Chartmetric",
+        "title":"Back-end Engineering Intern",
+        "years":"June 2021 - Present",
+        "description":"Fast-paced, results-focused, Agile development strategy and cross-team collaboration to develop new features and fix nuanced issues. Daily work with Node.js, Express, PostgreSQL, and Docker. Implemented a complete Stripe Checkout integration to allow payments from new sources and improve customer experience."
+      },
+      {
+        "company":"Florida Digital Service",
+        "title":"Computer Science Intern",
+        "years":"January 2021 - June 2021",
+        "description":"Greenfield development of full-stack Java EE 8 CRUD web applications. Gained extensive experience with Wildfly, PostgreSQL, Docker, Kubernetes, and IntelliJ IDEA. Produced extensive documentation which details project setup, usage, and philosophy. Spear-headed adoption of Test Driven Development strategies and tooling."
+      },
+      {
         "company":"Florida State University",
         "title":"Computer Science and Math Tutor",
-        "years":"October 2019 - Present",
+        "years":"October 2019 - December 2020",
         "description":"Appointment-based and group tutoring providing guidance and mentorship to other students. Topics include data structures, object-oriented programming, introductions to C++/Java/UNIX, discrete mathematics and college algebra."
       }
     ],
     "skills":[
       {
-        "name":"C++",
+        "name":"Python",
         "level":"90%"
       },
       {
@@ -68,40 +83,40 @@
         "level":"90%"
       },
       {
-        "name":"Python",
-        "level":"75%"
-      },
-      {
-        "name":"C",
-        "level":"70%"
-      },
-      {
-        "name":"HTML/CSS/JS",
-        "level":"70%"
-      },
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
         "name":"Java",
-        "level":"60%"
-      },
-      {
-        "name":"MySQL",
-        "level":"60%"
+        "level":"85%"
       },
       {
         "name":"Containers (Docker/Kubernetes)",
-        "level":"50%"
+        "level":"85%"
+      },
+      {
+        "name":"SQL",
+        "level":"80%"
+      },
+      {
+        "name":"HTML/CSS/JS",
+        "level":"80%"
+      },
+      {
+        "name":"C++",
+        "level":"80%"
+      },
+      {
+        "name":"Node.js",
+        "level":"75%"
+      },
+      {
+        "name":"Git",
+        "level":"75%"
       },
       {
         "name":"Golang",
-        "level":"20%"
+        "level":"60%"
       },
       {
-        "name":"Haskell",
-        "level":"10%"
+        "name":"C",
+        "level":"50%"
       }
     ]
   },
@@ -114,6 +129,12 @@
         "url":"https://www.github.com/fadedlamp42/duedate"
       },
       {
+        "title":"gostatus",
+        "category":"Modular Linux status monitor written in Go",
+        "image":"gostatus.png",
+        "url":"https://github.com/fadedlamp42/gostatus"
+      },
+      {
         "title":"MindBigData Exploration",
         "category":"An exercise in batch processing and visualizing a large data set",
         "image":"mbd.png",
@@ -121,7 +142,7 @@
       },
       {
         "title":"dwm",
-        "category":"My highly-customized build of a window manager written in C",
+        "category":"My highly-customized build of a Linux window manager written in C",
         "image":"dwm.png",
         "url":"https://www.github.com/fadedlamp42/dwm"
       },
