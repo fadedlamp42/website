@@ -5,15 +5,15 @@
         "city":"Tallahassee",
         "state":"Florida"
     },
-    "occupation":"Software Engineer, Computer Science Student, and Tutor",
+    "occupation":"Full-stack Engineer, Computer Scientist, and Educator",
     "description":"Problem solver for fun and profit",
-    "image":"profilepic.jpg",
+    "image":"profilepic.webp",
     "bio": [
-      "I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independently studying full-stack development, programming languages, and passing this knowledge onto others. Currently, I'm working as a back-end engineer with Chartmetric, a high-profile music analytics company. I also provide private tutoring sessions, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
-      "When I'm not programming, you can find me playing with my cats, gaming with my wife, or playing guitar."
+      "I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independently studying full-stack development, programming languages, and passing this knowledge onto others. Currently, I'm working as a full-stack engineer with Chartmetric, a high-profile music analytics company. I also provide private tutoring sessions, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
+      "When I'm not programming you can find me playing with my cats, gaming with my wife, or playing guitar."
     ],
     "contactmessage":"Find my contact info below. Email is the most reliable way to reach me but I check all social media regularly.",
-    "email": "plg18b@my.fsu.edu",
+    "email": "fadedlamp42@gmail.com",
     "phone": "786-662-9918",
     "website": "http://www.petergomez.xyz",
     "resumedownload":"Gomez_Pedro.pdf",
@@ -40,25 +40,24 @@
     "education":[
       {
         "school":"Florida State University",
-        "degree":"M.S. in Computer Science",
-        "graduated":"expected May 2023",
-        "gpa":"GPA: TBD",
-        "description":"I plan to deepen and solidify my understanding of computer science as a field of research while developing my practical skills."
-      },
-      {
-        "school":"Florida State University",
-        "degree":"B.S. in Computer Science, Minor in Mathematics",
-        "graduated":"expected May 2022",
-        "gpa":"GPA: 3.83",
+        "degree":"B.S. in Computer Science, Minor in Interdisciplinary Sciences",
+        "graduated":"April 2022",
+        "gpa":"GPA: 3.7",
         "description":"FSU's degree program has equipped me with a deep understanding of C++, the theory of programming languages, and basic system administration."
       }
     ],
     "work":[
       {
         "company":"Chartmetric",
-        "title":"Back-end Engineering Intern",
+        "title":"Back-end Engineering Intern / Full-stack Engineer",
         "years":"June 2021 - Present",
-        "description":"Fast-paced, results-focused, Agile development strategy and cross-team collaboration to develop new features and fix nuanced issues. Daily work with Node.js, Express, PostgreSQL, and Docker. Implemented a complete Stripe Checkout integration to allow payments from new sources and improve customer experience."
+        "description":"Fast-paced, results-focused, Agile development strategy and cross-team collaboration to develop new features and fix nuanced issues. Daily work with Node.js, Express, PostgreSQL, ElasticSearch, Snowflake, and Docker. Implemented a complete Stripe Checkout integration to allow payments from new sources and improve customer experience."
+      },
+      {
+        "company":"Pokezon",
+        "title":"Contract Full-stack Engineer",
+        "years":"March 2021 - Present",
+        "description":"Full server and code migration from CentOS-based LAMP stack to Debian-based NERP stack, CI/CD infrastructure, and NewRelic APM. Worked as a solo engineer for over 6 months before launch to completely rewrite a 10+ year-old code base using modern JavaScript, Go, and scalable infrastructure."
       },
       {
         "company":"Florida Digital Service",
@@ -75,53 +74,55 @@
     ],
     "skills":[
       {
+        "name":"JavaScript",
+        "level":"95%"
+      },
+      {
+        "name":"UNIX Administration",
+        "level":"93%"
+      },
+      {
+        "name":"Containers (Docker/Kubernetes)",
+        "level":"92%"
+      },
+      {
         "name":"Python",
         "level":"90%"
       },
       {
-        "name":"UNIX Administration",
-        "level":"90%"
+        "name":"HTML/CSS",
+        "level":"89%"
       },
       {
-        "name":"Java",
-        "level":"85%"
+        "name":"Node.js",
+        "level":"87%"
       },
       {
-        "name":"Containers (Docker/Kubernetes)",
-        "level":"85%"
+        "name":"Golang",
+        "level":"86%"
       },
       {
         "name":"SQL",
-        "level":"80%"
-      },
-      {
-        "name":"HTML/CSS/JS",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"C++",
         "level":"80%"
       },
       {
-        "name":"Node.js",
-        "level":"75%"
-      },
-      {
-        "name":"Git",
-        "level":"75%"
-      },
-      {
-        "name":"Golang",
-        "level":"60%"
-      },
-      {
         "name":"C",
-        "level":"50%"
+        "level":"70%"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"Pokezon",
+        "category":"E-commerce platform dedicated to selling fully-customizable Pokemon",
+        "image":"pokezon.png",
+        "url":"https://pokezon.com"
+      },
       {
         "title":"duedate",
         "category":"CLI tool for tracking tasks and due dates",

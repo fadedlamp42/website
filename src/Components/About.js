@@ -23,6 +23,9 @@ class About extends Component {
             <img className="profile-pic"  src={profilepic} alt="Picture of Peter Gomez" />
          </div>
          <div className="nine columns main-col">
+            <div className='centered'>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/o5HOP7ZgCMo?start=597" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <h2>About Me</h2>
 
             <p>{bio1}</p>
@@ -36,7 +39,7 @@ class About extends Component {
 						   <span>{city}, {state} {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span><a href="mailto:{email}">{email}</a></span>
+                     <span><a href={`mailto:{email}`}>{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
