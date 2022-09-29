@@ -6,8 +6,7 @@ class About extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
-      var bio1 = this.props.data.bio[0];
-      var bio2 = this.props.data.bio[1];
+      var bio = this.props.data.bio;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
@@ -28,8 +27,7 @@ class About extends Component {
             </div>
             <h2>About Me</h2>
 
-            <p>{bio1}</p>
-            <p>{bio2}</p>
+            {bio && bio.map(b => <p>{b}</p>)}
 
             <div className="row">
                <div className="columns contact-details">

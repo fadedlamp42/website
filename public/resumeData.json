@@ -2,14 +2,16 @@
   "main": {
     "name":"Peter Gomez",
     "address":{
-        "city":"Tallahassee",
+        "city":"Orlando",
         "state":"Florida"
     },
     "occupation":"Full-stack Engineer, Computer Scientist, and Educator",
     "description":"Problem solver for fun and profit",
     "image":"profilepic.webp",
     "bio": [
-      "I'm a senior computer science student at Florida State University. I strive to be a well-rounded developer by independently studying full-stack development, programming languages, and passing this knowledge onto others. Currently, I'm working as a full-stack engineer with Chartmetric, a high-profile music analytics company. I also provide private tutoring sessions, teaching subjects from object-oriented programming and data structures with C++ to UNIX administration and system configuration.",
+      "Disciplined, analytical, and consistently curious. Graduated from FSU in 2022 with a B.S. degree in Computer Science at a 3.7 GPA.",
+      "Full-stack software engineering at Chartmetric has developed my back-end engineering skills with Node.js, AWS services (EC2, Aurora, Elasticache), and Terraform, my front-end skills with React.js, and database skills like PostgreSQL, Snowflake, ElasticSearch, and Redis.",
+      "Independently built and maintain full-featured e-commerce platform complete with Stripe for payment processing and a hand-crafted employee dashboard for managing orders and fulfillment.",
       "When I'm not programming you can find me playing with my cats, gaming with my wife, or playing guitar."
     ],
     "contactmessage":"Find my contact info below. Email is the most reliable way to reach me but I check all social media regularly.",
