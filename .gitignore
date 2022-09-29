@@ -13,6 +13,7 @@ package-lock.json
 # production
 /build
 build.tar
+build.tar.gz
 
 # misc
 .DS_Store
